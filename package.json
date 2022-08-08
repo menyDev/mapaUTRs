@@ -10,9 +10,10 @@
   },
   "main": "app.js",
   "scripts": {
-    "tsc": "tsc",
-    "start": "node build/app.js",
-    "postinstall": "npm run tsc",
+    "start": "node app.js",
+    "tsc": "./node_modules/typescript/bin/tsc",
+    "build": "tsc",
+    "postinstall": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
