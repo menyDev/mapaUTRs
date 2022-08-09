@@ -41,7 +41,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
  * SPDX-License-Identifier: Apache-2.0
  */
 //importación de paquetes
-const CONSTANTES = __importStar(require("../constantes"));
+const CONSTANTES = __importStar(require("./constantes"));
 const node_fetch_1 = __importDefault(require("node-fetch"));
 //decalaración de variables y constantes
 //solicita valores de UTRs

@@ -4,9 +4,9 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 //importación de paquetes
-import * as CONSTANTES from '../constantes';
+import * as CONSTANTES from './constantes';
 import fetch from 'node-fetch';
-import * as TIPOS from '../tipos';
+import * as TIPOS from './tipos';
 
 //decalaración de variables y constantes
 
